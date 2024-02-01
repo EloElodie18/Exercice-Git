@@ -8,3 +8,14 @@ if (nombreCafeAvale > 1) {
 } else {
   console.log("Dure journée");
 }
+
+let kgDeChocolat = 13,
+  codeChoco = false;
+
+if (kgDeChocolat > 15) {
+  if (!codeChoco) {
+    console.log("Grosse journée");
+  }
+} else {
+  console.log("Mince journée");
+}
